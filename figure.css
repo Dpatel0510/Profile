@@ -1,0 +1,19 @@
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    background-color: white;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+figure#figure1 {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 60%;
+}

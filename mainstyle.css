@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/* HTML Styles */
+html {
+    background-image: url('backpic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Body Header Styles */
+
+nav#mainLinks ul li {
+    background-color: lightslategray;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 16%;
+}
+
+nav#mainLinks ul li a {
+    color: black;
+    display: block;
+    height: 2.5em;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+nav#mainLinks a:link,
+nav#mainLinks a:visited {
+    color: white;
+}
+
+nav#mainLinks a:hover,
+nav#mainLinks a:active {
+    background-color: rgb(51, 51, 45);
+}
+
+/* Main text on page*/
+
+section#welcome {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    animation: mymove 3s;
+}
+
+section#welcome h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#welcome p {
+    color: white;
+    font-size: 25px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Section Styles */
+
+section#leftColumn {
+    float: left;
+    background-color: lightslategray;
+    margin-left: 15%;
+    margin-right: 4%;
+    width: 40%;
+}
+
+section#leftColumn p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Aside Styles */
+
+aside {
+    float: left;
+    margin-right: 15%;
+    width: 26%;
+}
+
+aside h1 {
+    color: lightslategray;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+}
+
+/* Footer Style */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, lightslategray, white);
+    border-top: 5px solid darkgoldenrod;
+    height: 4%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Intro Animation */
+
+@keyframes mymove {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+/* Table style */
+table,
+td,
+th {
+    border: 1px solid black;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* testimonials style */
+#test p {
+    background-color: lightslategray;
+    font-size: x-large;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/* resume style */
+#resume p {
+    background-color: lightslategray;
+    font-size: x-large;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
